@@ -16,7 +16,7 @@ const PodcastTalk = () => {
             </div>
           </div>
           <div className="w-[509px] text-center justify-start text-white text-4xl font-bold font-['NunitoSans'] leading-[58.67px] tracking-wide">
-            🎙️ Podcasts & Talk Shows
+            🎙️ Explore Music Categories
           </div>
         </div>
       </div>
