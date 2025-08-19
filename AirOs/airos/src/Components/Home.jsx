@@ -6,26 +6,26 @@ const Home = () => {
   return (
     <div className="w-full min-h-screen bg-[#122] overflow-x-hidden">
       <Navbar />
-      <div className="w-full  max-h-[627.8px] overflow-hidden relative">
-        {/* KKSF FM AM part */}
-        <div className="flex flex-wrap w-[250px]  flex-col items-center gap-[4.529px]  mt-[150px] mx-[110px] mb-[50px]  ">
-          <div className=" relative flex h-[45.53px]  felx-col justify-center self-stretch text-[#FFF] text-[40.22px] text-center font-[Nunito Sans]  font-[400] leading-normal  ">
-            KKSF
-          </div>
+      <div className="w-full max-h-screen overflow-hidden relative">
+  {/* KKSF FM AM part */}
+  <div className="flex flex-col items-center justify-center text-center gap-2 mt-10 mx-2 mb-6 lg:items-start lg:text-left lg:w-[250px] lg:mx-24 lg:mt-36">
+    <div className="text-[#FFF] text-2xl sm:text-3xl md:text-4xl font-[Nunito Sans] font-[400] leading-normal">
+      Independent Music
+    </div>
 
-          <div className="text-center justify-start text-white text-8xl font-normal font-ralewaydots">
-            103:7
-          </div>
+    <div className="text-white text-2xl sm:text-3xl md:text-4xl font-normal font-ralewaydots">
+      cross-borders
+    </div>
 
-          <div className="inline-flex justify-start items-center gap-[29.59px] ">
-            <div className="w-[41.32px] h-[27.55px] relative justify-center text-[#eab557] text-[26.74px] font-semibold font-['Inter'] cursor-pointer">
-              FM
-            </div>
-            <div className="w-[45.91px] h-[27.55px] relative justify-center text-[#d5d2c6] text-[27.20px] font-semibold font-['Inter'] cursor-pointer">
-              AM
-            </div>
-          </div>
-        </div>
+    <div className="inline-flex justify-center items-center gap-4 sm:gap-6">
+      <div className="text-[#eab557] text-base sm:text-lg md:text-xl font-semibold font-['Inter'] cursor-pointer">
+        Live
+      </div>
+      <div className="text-[#d5d2c6] text-base sm:text-lg md:text-xl font-semibold font-['Inter'] cursor-pointer">
+        24x7
+      </div>
+    </div>
+  </div>
         {/* frequency Tuner part */}
         <div className="w-[700px] h-[100px] flex flex-col relative bg-white">
           <div className="w-full h-[1px] mt-2 bg-black outline-[0.37px] outline-offset-[-0.18px] outline-black"></div>
