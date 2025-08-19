@@ -50,10 +50,10 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <span className="text-[#FFF] text-2xl md:text-[30.6px] font-bold font-['Nunito Sans']">
-            Air
+            Amirtham radio
           </span>
           <span className="text-[#C8C6C5] text-2xl md:text-[37.8px] font-bold font-['Nunito Sans']">
-            OS
+            logo
           </span>
         </div>
 
